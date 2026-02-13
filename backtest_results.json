@@ -1,0 +1,112 @@
+{
+  "best_variant": "V9_WideSLTP_Relaxed",
+  "metrics": {
+    "total_return_pct": 514.16,
+    "annual_return_pct": 44.44,
+    "sharpe_ratio": 1.381,
+    "max_drawdown_pct": -34.42,
+    "win_rate_pct": 59.4,
+    "total_trades": 32,
+    "profit_factor": 3.45,
+    "buy_hold_return_pct": 1481.3
+  },
+  "parameters": {
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9,
+    "rsi_period": 14,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "ema_short": 20,
+    "ema_long": 50,
+    "stop_loss_pct": 0.08,
+    "take_profit_pct": 0.25
+  },
+  "signal_mode": "relaxed",
+  "all_variants": [
+    {
+      "name": "V9_WideSLTP_Relaxed",
+      "total_return_pct": 514.16,
+      "sharpe_ratio": 1.381,
+      "max_drawdown_pct": -34.42,
+      "trades": 32
+    },
+    {
+      "name": "V11_TrendFollow_Relaxed",
+      "total_return_pct": 295.53,
+      "sharpe_ratio": 0.977,
+      "max_drawdown_pct": -58.94,
+      "trades": 69
+    },
+    {
+      "name": "V6_Classic_Relaxed",
+      "total_return_pct": 260.1,
+      "sharpe_ratio": 1.12,
+      "max_drawdown_pct": -29.33,
+      "trades": 38
+    },
+    {
+      "name": "V12_Momentum_Relaxed",
+      "total_return_pct": 71.97,
+      "sharpe_ratio": 0.54,
+      "max_drawdown_pct": -45.35,
+      "trades": 78
+    },
+    {
+      "name": "V7_Fast_Relaxed",
+      "total_return_pct": 64.78,
+      "sharpe_ratio": 0.51,
+      "max_drawdown_pct": -45.1,
+      "trades": 72
+    },
+    {
+      "name": "V8_Conservative_Relaxed",
+      "total_return_pct": 65.35,
+      "sharpe_ratio": 0.571,
+      "max_drawdown_pct": -29.54,
+      "trades": 25
+    },
+    {
+      "name": "V10_Aggressive_Relaxed",
+      "total_return_pct": 17.12,
+      "sharpe_ratio": 0.266,
+      "max_drawdown_pct": -37.71,
+      "trades": 43
+    },
+    {
+      "name": "V1_Classic_Strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "trades": 0
+    },
+    {
+      "name": "V2_Fast_Strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "trades": 0
+    },
+    {
+      "name": "V3_Conservative_Strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "trades": 0
+    },
+    {
+      "name": "V4_WideSLTP_Strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "trades": 0
+    },
+    {
+      "name": "V5_Tight_Strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "trades": 0
+    }
+  ]
+}
