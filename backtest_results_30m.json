@@ -1,0 +1,174 @@
+{
+  "timeframe": "30m",
+  "best_variant": "V6_WideRSI",
+  "signal_mode": "relaxed",
+  "metrics": {
+    "total_return_pct": 3.869,
+    "annual_return_pct": 26.5,
+    "sharpe_ratio": 1.3,
+    "max_drawdown_pct": -6.32,
+    "win_rate_pct": 52.9,
+    "total_trades": 17,
+    "profit_factor": 1.49,
+    "avg_trade_return_pct": 0.237,
+    "buy_hold_return_pct": 3.73
+  },
+  "parameters": {
+    "macd_fast": 6,
+    "macd_slow": 13,
+    "macd_signal": 5,
+    "rsi_period": 7,
+    "rsi_oversold": 25,
+    "rsi_overbought": 75,
+    "ema_short": 5,
+    "ema_long": 13,
+    "stop_loss_pct": 0.015,
+    "take_profit_pct": 0.04
+  },
+  "all_variants": [
+    {
+      "name": "V6_WideRSI",
+      "signal_mode": "relaxed",
+      "total_return_pct": 3.869,
+      "sharpe_ratio": 1.3,
+      "max_drawdown_pct": -6.32,
+      "win_rate": 52.9,
+      "trades": 17
+    },
+    {
+      "name": "V13_MACD_RSI_WideTP",
+      "signal_mode": "macd_rsi",
+      "total_return_pct": 3.037,
+      "sharpe_ratio": 1.384,
+      "max_drawdown_pct": -3.617,
+      "win_rate": 40.0,
+      "trades": 5
+    },
+    {
+      "name": "V3_MediumIntraday",
+      "signal_mode": "relaxed",
+      "total_return_pct": 1.945,
+      "sharpe_ratio": 0.672,
+      "max_drawdown_pct": -5.406,
+      "win_rate": 52.0,
+      "trades": 25
+    },
+    {
+      "name": "V11_MACD_RSI_Scalp",
+      "signal_mode": "macd_rsi",
+      "total_return_pct": 2.323,
+      "sharpe_ratio": 1.385,
+      "max_drawdown_pct": -3.063,
+      "win_rate": 33.3,
+      "trades": 9
+    },
+    {
+      "name": "V10_Balanced",
+      "signal_mode": "relaxed",
+      "total_return_pct": 0.791,
+      "sharpe_ratio": 0.362,
+      "max_drawdown_pct": -5.042,
+      "win_rate": 43.5,
+      "trades": 23
+    },
+    {
+      "name": "V8_SwingIntraday",
+      "signal_mode": "relaxed",
+      "total_return_pct": -3.454,
+      "sharpe_ratio": -0.713,
+      "max_drawdown_pct": -12.683,
+      "win_rate": 38.9,
+      "trades": 18
+    },
+    {
+      "name": "V2_Scalper",
+      "signal_mode": "relaxed",
+      "total_return_pct": 0.301,
+      "sharpe_ratio": 0.207,
+      "max_drawdown_pct": -4.741,
+      "win_rate": 41.2,
+      "trades": 34
+    },
+    {
+      "name": "V1_Intraday_Classic",
+      "signal_mode": "relaxed",
+      "total_return_pct": -2.395,
+      "sharpe_ratio": -0.645,
+      "max_drawdown_pct": -6.844,
+      "win_rate": 44.4,
+      "trades": 27
+    },
+    {
+      "name": "V4_WideTP",
+      "signal_mode": "relaxed",
+      "total_return_pct": -2.395,
+      "sharpe_ratio": -0.645,
+      "max_drawdown_pct": -6.844,
+      "win_rate": 44.4,
+      "trades": 27
+    },
+    {
+      "name": "V5_TightSL",
+      "signal_mode": "relaxed",
+      "total_return_pct": -2.19,
+      "sharpe_ratio": -0.726,
+      "max_drawdown_pct": -5.167,
+      "win_rate": 43.8,
+      "trades": 32
+    },
+    {
+      "name": "V9_Aggressive",
+      "signal_mode": "relaxed",
+      "total_return_pct": -8.461,
+      "sharpe_ratio": -3.011,
+      "max_drawdown_pct": -12.882,
+      "win_rate": 35.7,
+      "trades": 28
+    },
+    {
+      "name": "V7_MomentumBurst",
+      "signal_mode": "relaxed",
+      "total_return_pct": -8.185,
+      "sharpe_ratio": -3.038,
+      "max_drawdown_pct": -11.746,
+      "win_rate": 33.3,
+      "trades": 33
+    },
+    {
+      "name": "V12_MACD_RSI_Med",
+      "signal_mode": "macd_rsi",
+      "total_return_pct": -2.633,
+      "sharpe_ratio": -1.805,
+      "max_drawdown_pct": -4.3,
+      "win_rate": 0.0,
+      "trades": 4
+    },
+    {
+      "name": "V14_Strict_Fast",
+      "signal_mode": "strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "win_rate": 0,
+      "trades": 0
+    },
+    {
+      "name": "V15_Strict_WideRSI",
+      "signal_mode": "strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "win_rate": 0,
+      "trades": 0
+    },
+    {
+      "name": "V16_Strict_Classic",
+      "signal_mode": "strict",
+      "total_return_pct": 0.0,
+      "sharpe_ratio": 0.0,
+      "max_drawdown_pct": 0.0,
+      "win_rate": 0,
+      "trades": 0
+    }
+  ]
+}
